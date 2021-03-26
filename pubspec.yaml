@@ -1,11 +1,10 @@
 name: rpc_dispatcher
-description: An interface for JSON-RPC method invocation
-version: 1.0.0
+description: An interface for JSON-RPC method invocation. Its presence as a separate package is solely to avoid circular references.
+version: 1.0.1
 repository: https://github.com/jwashin/rpc_dispatcher
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
-
 
 dev_dependencies:
   pedantic: ^1.9.0
