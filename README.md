@@ -1,7 +1,8 @@
-A library for Dart developers.
+Dispatcher is just an interface with a dispatch method for invoking methods on an instance.
+This interface hides implementation details for concrete method invokers for a JsonRpc service.
+Its presence as a separate package is solely to avoid circular references.
 
-Created from templates made available by Stagehand under a BSD-style
-[license](https://github.com/dart-lang/stagehand/blob/master/LICENSE).
+MIT License.
 
 ## Usage
 
@@ -9,14 +10,11 @@ A simple usage example:
 
 ```dart
 import 'package:rpc_dispatcher/rpc_dispatcher.dart';
-
-main() {
-  var awesome = new Awesome();
-}
 ```
 
 ## Features and bugs
 
 Please file feature requests and bugs at the [issue tracker][tracker].
 
-[tracker]: http://example.com/issues/replaceme
+[tracker]: https://github.com/jwashin/rpc_dispatcher/issues
+
